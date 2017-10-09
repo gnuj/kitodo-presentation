@@ -51,9 +51,6 @@ class tx_dlf_audioplayer extends tx_dlf_plugin {
 
 		// Add player configuration.
 		$output[] = '
-		<style>
-			#tx-dlf-audio { width: 100px; height: 100px };
-		</style>
 		<script id="tx-dlf-audioplayer-initViewer" type="text/javascript">
 			$(document).ready(function() {
 				tx_dlf_audioplayer = new dlfAudioPlayer({
